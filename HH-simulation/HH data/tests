@@ -1,0 +1,4 @@
+function s=s(t);
+s=4*10^(-9)*exp(-t/5);
+end
+

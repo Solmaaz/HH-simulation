@@ -1,0 +1,8 @@
+clear all;
+clc;
+L=500;
+mu=0;
+Sigma=2;
+X=Sigma+randn(L,1)+mu;
+figure(1);
+plot(X)
